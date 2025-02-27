@@ -16,7 +16,7 @@ CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
-BOT_TOKEN = getenv("BOT_TOKEN", default=8010876646:AAGEfUthwvivn5jjrBWdTHrvLPv9usqs1NU)
+BOT_TOKEN = getenv("BOT_TOKEN", default=None)
 BOT_TOKEN2 = getenv("BOT_TOKEN2", default=None)
 BOT_TOKEN3 = getenv("BOT_TOKEN3", default=None)
 BOT_TOKEN4 = getenv("BOT_TOKEN4", default=None)
@@ -36,7 +36,7 @@ SUDO_USERS.append(OWNER_ID)
 
 # ------------- CLIENTS -------------
 
-X1 = TelegramClient('X1', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+X1 = TelegramClient('X1', API_ID, API_HASH).start(bot_token=8010876646:AAGEfUthwvivn5jjrBWdTHrvLPv9usqs1NU)
 X2 = TelegramClient('X2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
 X3 = TelegramClient('X3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
 X4 = TelegramClient('X4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
