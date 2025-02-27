@@ -36,7 +36,7 @@ SUDO_USERS.append(OWNER_ID)
 
 # ------------- CLIENTS -------------
 
-X1 = TelegramClient('X1', API_ID, API_HASH).start(bot_token=8010876646:AAGEfUthwvivn5jjrBWdTHrvLPv9usqs1NU)
+X1 = TelegramClient('X1', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 X2 = TelegramClient('X2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
 X3 = TelegramClient('X3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
 X4 = TelegramClient('X4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
