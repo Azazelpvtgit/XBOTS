@@ -44,8 +44,7 @@ BOT_TOKEN6 = '6166510522:AAGWPeR0xa7zfu6vkcvsppJOzW3VhjpEda4'
 BOT_TOKEN7 = '6166510522:AAGWPeR0xa7zfu6vkcvsppJOzW3VhjpEda4'
 BOT_TOKEN8 = '6166510522:AAGWPeR0xa7zfu6vkcvsppJOzW3VhjpEda4'
 BOT_TOKEN9 = '6166510522:AAGWPeR0xa7zfu6vkcvsppJOzW3VhjpEda4'
-BOT_TOKEN10 = '6166510522:AAGWPeR0xa7zfu6vkcvsppJOzW3VhjpEda4'
-
+BOT_TOKEN10 = none
 X1 = TelegramClient('X1', API_ID, API_HASH).start(bot_token=BOT_TOKEN1)
 X2 = TelegramClient('X2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
 X3 = TelegramClient('X3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
